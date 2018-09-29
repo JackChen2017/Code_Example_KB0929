@@ -64,6 +64,7 @@
     <Content Include="ASP\example003.aspx" />
     <Content Include="ASP\example0041.aspx" />
     <Content Include="ASP\example004.aspx" />
+    <Content Include="ASP\example0042.aspx" />
     <Content Include="ASP\example005.aspx" />
     <Content Include="ASP\example006.aspx" />
     <Content Include="JS\JavaScript.js" />
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="ASP\example004.aspx.designer.cs">
       <DependentUpon>example004.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ASP\example0042.aspx.cs">
+      <DependentUpon>example0042.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ASP\example0042.aspx.designer.cs">
+      <DependentUpon>example0042.aspx</DependentUpon>
     </Compile>
     <Compile Include="ASP\example005.aspx.cs">
       <DependentUpon>example005.aspx</DependentUpon>
